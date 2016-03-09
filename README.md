@@ -2,6 +2,8 @@
 
 OneInstaller, the wiki Homebrew!
 
+![header](screen_shot.jpg)
+
 OneInstaller is powered by ONElua "Lua Interpreter for PSP".
 Written By Davis Nuñez in 2015 (c).
 
