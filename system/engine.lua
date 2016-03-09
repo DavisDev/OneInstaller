@@ -921,7 +921,7 @@ function Update_Core()
 	end
 	-- ## Login ##
 	fileupdated = "Login"
-	http.post(Servidor.."login.php","username="..os.nick().."&".."lang="..os.language().."&".."model="..hw.getmodel().."&".."gen="..hw.gen().."&".."reg="..hw.region().."&".."fw="..os.cfw())
+	http.post(Servidor.."login.php","username="..os.nick().."&".."lang="..os.language().."&".."model="..(hw.getmodel() or "Unk").."&".."gen="..(hw.gen() or "Unk").."&".."reg="..(hw.region() or "Unk").."&".."fw="..(os.cfw() or "Unk"))
 	progressupdate = 100
 	local myscreenback = screen.buffertoimage()
 	box.ine(myscreenback)
