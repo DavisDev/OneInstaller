@@ -1,13 +1,13 @@
---[[
-	One Installer - The Wiki HomeBrews.
-	Gestor e Instalador de Contenidos para la PSP & PSVITA.
-
-	Desarrollado por El Equipo OneInstaller.
+- [[
+	One Installer - The Wiki homebrews.
+	Content Manager and Installer for PSP & PSVITA.
+	Developed by Davis Nuñez in 2015 (c).
 	
-	Licenciado por Creative Commons Reconocimiento-CompartirIgual 4.0
-		http://creativecommons.org/licenses/by-sa/4.0/
-	Fix Bug over plugins install...
-	]]
+	Licensed by Creative Commons Attribution-ShareAlike 4.0
+	http://creativecommons.org/licenses/by-sa/4.0/
+	
+	Bug Fix install plugins over ...
+]]
 
 os.cpu(333) -- Set CPU a maximo temporalmente.
 dofile("system/libs/kernel.lua") -- libreria con la mayoria de funciones
